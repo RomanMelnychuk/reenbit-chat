@@ -1,0 +1,6 @@
+@ReenbitChat_HostAddress = http://localhost:5186
+
+GET {{ReenbitChat_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
