@@ -5,6 +5,7 @@ namespace ReenbitChat.Data
 {
     /// <summary>
     /// Entity Framework Core database context for the chat application.
+    /// Manages connection to Azure SQL Database.
     /// </summary>
     public class AppDbContext : DbContext
     {
@@ -12,6 +13,10 @@ namespace ReenbitChat.Data
         {
         }
 
+        /// <summary>
+        /// Represents the ChatMessages table in the database.
+        /// Stores all chat messages with their sentiment analysis results.
+        /// </summary>
         public DbSet<ChatMessage> ChatMessages { get; set; }
     }
 }
