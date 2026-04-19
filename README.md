@@ -95,5 +95,3 @@ Add to `ReenbitChat/appsettings.json`:
   }
 }
 ```
-
-Збережи і скажи коли готово!
