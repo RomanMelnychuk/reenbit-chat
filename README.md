@@ -35,12 +35,15 @@ A real-time chat application with sentiment analysis built with ASP.NET Core, Re
 - Messages displayed left/right based on username
 
 ## 🏗️ Project Structure
+
+```
 ReenbitChat/              # ASP.NET Core backend
 ├── Hubs/ChatHub.cs       # SignalR Hub
 ├── Models/ChatMessage.cs # Message model
 ├── Data/AppDbContext.cs  # EF Core context
 ├── wwwroot/              # Built React frontend
 └── Program.cs            # App configuration
+
 reenbit-chat-client/      # React + Vite frontend
 ├── src/
 │   ├── components/
@@ -50,6 +53,7 @@ reenbit-chat-client/      # React + Vite frontend
 │   │   └── MessageInput.jsx
 │   └── App.jsx
 └── vite.config.js
+```
 
 ## 🚀 Getting Started
 
